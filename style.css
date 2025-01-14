@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    height: 100vh;
+}
+.geral{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+    flex-direction: column;
+}
+.login{
+
+    
+}
+.caixa1 input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5%; 
+    border: none; 
+    background-color: #e8e8e8ff;
+    height: 4vh;
+    width: 20vw;
+    margin-bottom: 2.5%;
+}
+.caixa2 input{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color:#e8e8e8ff ;
+    height: 4vh;
+    width: 20vw;
+} 
+.check{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-right: 11%;
+    display: flex;
+}
+.check a{
+    position: absolute;
+    left: 56%;
+}
+.forgot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+}
+
+.botao{
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color:#8282f5ff;
+    color: white;
+    height: 4vh;
+    width: 20vw;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: rgb(52, 52, 180);
+}
