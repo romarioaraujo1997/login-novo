@@ -2,6 +2,7 @@
 
 body{
     height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFwZWwlMjBkZSUyMHBhcmVkZSUyMHBhcmElMjBwY3xlbnwwfHwwfHx8MA%3D%3D);
 }
 .geral{
     font-family: "Roboto", serif;
@@ -13,15 +14,15 @@ body{
     align-items: center;
     margin-top: 25%;
     flex-direction: column;
-}
-.login{
-
-    
+    background-color: white;
+    width: 25vw;
+    height: 35vh;
+    margin-left: 38%;
+    border-radius: 5%;
 }
 .caixa1 input{
     display: flex;
-    flex-direction: column;
-    margin-bottom: 0.5%; 
+    flex-direction: column; 
     border: none; 
     background-color: #e8e8e8ff;
     height: 4vh;
@@ -39,7 +40,7 @@ body{
 .check{
     margin-top: 0.5%;
     margin-bottom: 0.5%;
-    margin-right: 11%;
+    margin-right: 43%;
     display: flex;
 }
 .check a{
@@ -50,7 +51,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: red;
 }
 
 .botao{
@@ -67,4 +67,9 @@ body{
 }
 .botao:hover{
     background-color: rgb(52, 52, 180);
+    
+}
+#imagem{
+
+    
 }
